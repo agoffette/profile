@@ -1,0 +1,165 @@
+body {
+  width: 100%;
+  background-color: white;
+}
+
+#avatar {
+  height: 200px;
+  border-radius: 50%;
+  box-shadow: 1px 3px 3px rgb(255,255,255, 0.4);
+}
+
+.album-cover {
+  height: 200px;
+}
+
+h1, h2, h3 {
+  font-family: Viga;
+  opacity: 0.9;
+}
+
+h1 {
+  font-size: 80px;
+  font-weight: bolder;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+p {
+  font-family: Oswald;
+  font-size: 13px;
+}
+
+.header {
+  text-align: center;
+  padding-top: 100px;
+  color: white;
+  height: 105%;
+  background-image: linear-gradient(to top, #da1bab, #ff2582, #ff555a, #ff8439, #f7ae25);
+}
+
+
+@media (max-width: 720px) {
+  .header {
+    height: 115%;
+    padding-top: 50px;
+  }
+
+  .header h1 {
+    font-size: 50px;
+  }
+
+  .header h2 {
+    font-size: 20px;
+  }
+
+  p {
+    font-weight: lighter;
+  }
+}
+
+.header p {
+  margin: auto;
+  font-size: 16px;
+}
+
+.contact-button a, .contact-button i, .social-links a, .about-links a, .track-info li a {
+  text-decoration: none;
+  color: white;
+}
+
+.track-info li a:hover {
+  opacity: 0.5;
+}
+
+.contact-button {
+  font-family: Oswald;
+  font-size: 13px;
+  font-weight: bold;
+  border: 2px solid white;
+  width: 180px;
+  margin: auto;
+  margin-top: 60px;
+  margin-bottom: 30px;
+  background: rgba(255,255,255,0.15);
+  border-radius: 20px;
+  padding: 5px;
+  text-align: center;
+}
+
+.contact-button:hover {
+  background: rgba(255,255,255,0.35);
+}
+
+.social-links {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+}
+
+.social-links li {
+  list-style-type: none;
+  display: inline;
+  padding: 15px;
+  font-size: 20px;
+}
+
+.social-links li:hover {
+  opacity: 0.5;
+}
+
+.tableau {
+  margin: auto;
+  text-align: right;
+  padding: 40px;
+}
+
+.track-info {
+  padding-left: 40px;
+}
+
+.track-info li {
+  font-family: Oswald;
+  color: white;
+  list-style-type: none;
+}
+
+.playlist {
+  justify-content: center;
+  text-align: center;
+  padding: 35px;
+  background: rgba(0,0,0,0.9);
+  background-image: url("images/bois.jpg");
+  background-size: 100%;
+}
+
+.playlist h2, h3 {
+  background: -webkit-linear-gradient(#da1bab, #ff2582, #ff555a, #ff8439, #f7ae25);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.videos {
+  margin-left: 40px;
+}
+
+.footer {
+  text-align: center;
+  font-size: 30px;
+  padding: 40px;
+  color: white;
+  height: 280px;
+  background-image: linear-gradient(to top, #da1bab, #ff2582, #ff555a, #ff8439, #f7ae25);
+}
+
+.footer p {
+  margin-top: 50;
+}
+
+#emoji {
+  height: 90px;
+}
